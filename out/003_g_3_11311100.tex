@@ -1,0 +1,27 @@
+\begin{tikzpicture}[remember picture, scale=\modGraphScale, baseline={([yshift={-0.5ex}]current bounding box)}, thick, solid]
+\input{\modInputPrefix/out/003_g_3_mol_coord.tex}
+\node[modStyleGraphVertex, text=red, at=(\modIdPrefix v-coord-0)] (\modIdPrefix v-0) {\textbf{O}};
+\node[modStyleGraphVertex, text=red, at=(\modIdPrefix v-0.west), anchor=east] (\modIdPrefix v-0-aux) {\textbf{H}};
+\node[modStyleGraphVertex, at=(\modIdPrefix v-0-aux)] {\phantom{\textbf{H}}};
+\node[modStyleGraphVertex, text=orange, at=(\modIdPrefix v-coord-1)] (\modIdPrefix v-1) {\textbf{P}};
+\node[modStyleGraphVertex, text=red, at=(\modIdPrefix v-coord-2)] (\modIdPrefix v-2) {\textbf{O}};
+\node[modStyleGraphVertex, text=red, at=(\modIdPrefix v-2.east), anchor=west] (\modIdPrefix v-2-aux) {\textbf{H}};
+\node[modStyleGraphVertex, at=(\modIdPrefix v-2-aux)] {\phantom{\textbf{H}}};
+\node[modStyleGraphVertex, text=red, at=(\modIdPrefix v-coord-3)] (\modIdPrefix v-3) {\textbf{O}};
+\node[modStyleGraphVertex, text=orange, at=(\modIdPrefix v-coord-4)] (\modIdPrefix v-4) {\textbf{P}};
+\node[modStyleGraphVertex, text=red, at=(\modIdPrefix v-coord-5)] (\modIdPrefix v-5) {\textbf{O}};
+\node[modStyleGraphVertex, text=red, at=(\modIdPrefix v-5.east), anchor=west] (\modIdPrefix v-5-aux) {\textbf{H}};
+\node[modStyleGraphVertex, at=(\modIdPrefix v-5-aux)] {\phantom{\textbf{H}}};
+\node[modStyleGraphVertex, text=red, at=(\modIdPrefix v-coord-6)] (\modIdPrefix v-6) {\textbf{O}};
+\node[modStyleGraphVertex, text=red, at=(\modIdPrefix v-6.east), anchor=west] {\textbf{$^{-}$}};
+\node[modStyleGraphVertex, text=red, at=(\modIdPrefix v-coord-7)] (\modIdPrefix v-7) {\textbf{O}};
+\node[modStyleGraphVertex, text=red, at=(\modIdPrefix v-coord-8)] (\modIdPrefix v-8) {\textbf{O}};
+\modDrawSingleBond{1}{2}{1}{1}{}{}
+\modDrawSingleBond{1}{3}{1}{1}{}{}
+\modDrawSingleBond{4}{5}{1}{1}{}{}
+\modDrawSingleBond{4}{6}{1}{1}{}{}
+\modDrawSingleBond{3}{4}{1}{1}{}{}
+\modDrawDoubleBond{4}{7}{1}{1}{}{}
+\modDrawSingleBond{0}{1}{1}{1}{}{}
+\modDrawDoubleBond{1}{8}{1}{1}{}{}
+\end{tikzpicture}

@@ -1,0 +1,16 @@
+Running VM ---------------------------------------------------------
+Executing code from '/home/shared/molecules.py'
+End of code from '/home/shared/molecules.py'
+Executing code from '/home/shared/simulation.py'
+Repeat, limit = 2
+   Substrat 0
+   Got 2 graphs
+   Substrat 1
+   Got 1 graphs
+End of code from '/home/shared/simulation.py'
+Executing code from '/home/shared/printer.py'
+End of code from '/home/shared/printer.py'
+
+real	0m2.067s
+user	0m0.387s
+sys	0m0.126s

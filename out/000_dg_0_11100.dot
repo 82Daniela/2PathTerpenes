@@ -1,0 +1,21 @@
+digraph g {
+
+// id = 0, graphName = GPP
+"0-0" [ shape=ellipse label="GPP" image="out/001_g_0_11311100.svg" color="black" ];
+// id = 1, graphName = H2O
+"1-0" [ shape=ellipse label="H2O" image="out/002_g_2_11311100.svg" color="black" ];
+// id = 2, graphName = OPP-
+"2-0" [ shape=ellipse label="OPP-" image="out/003_g_3_11311100.svg" color="red" ];
+// id = 3, graphName = geranyl cation C1+
+"3-0" [ shape=ellipse label="geranyl cation C1+" image="out/004_g_4_11311100.svg" color="red" ];
+// id = 5, graphName = p_{0,0}
+"5-0" [ shape=ellipse label="p_{0,0}" image="out/005_g_41_11311100.svg" color="red" ];
+// id = 4{ 'GPP' }, 'Disphophate loss general', { 'OPP-' 'geranyl cation C1+' }
+"4-0" [ shape=box label="r_{1}"color="red" ];
+// id = 4{ 'GPP' }, 'Disphophate loss general', { 'OPP-' 'geranyl cation C1+' }
+"0-0" -> "4-0" [color="black" ];
+"4-0" -> "2-0" [color="red" ];
+"4-0" -> "3-0" [color="red" ];
+// id = 6{ 'geranyl cation C1+' }, '1,2 hydrid shift', { 'p_{0,0}' }
+"3-0" -> "5-0" [ label="r_{0}" color="red" ];
+}

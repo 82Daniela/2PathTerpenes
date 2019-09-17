@@ -83,24 +83,40 @@
 		<div class="row">
 						<div class="col-xs-5">
 		                <select name="from[]" id="lstview" class="form-control" size="8" multiple="multiple">
-								<option value="r00 = ruleGML('1-2Hshift.gml')">1,2 hydrid shift</option>
-								<option value="r01 = ruleGML('1-3Hshift.gml')">1,3 hydrid shift</option>
-								<option value="r02 = ruleGML('h_loss.gml')">H+ loss</option>
-								<option value="r03 = ruleGML('h2o_gain.gml')">Capture of H2O</option>
-								<option value="r04 = ruleGML('opp_loss_gpp.gml')">Disphophate loss for GPP</option>
-								<option value="r05 = ruleGML('opp_loss_gpp_alternative.gml')">Disphophate loss for GPP (alternative)</option>
-								<option value="r06 = ruleGML('opp_gain_by_geranyl_cation.gml')">Diphosphate capture by geranyl cation (alternative)</option>
-								<option value="r07 = ruleGML('opp_loss_for_lpp_c3.gml')">Diphosphate loss for linalyl diphosphate</option>
-								<option value="r08 = ruleGML('opp_loss_for_lpp_c3_alternative.gml')">Diphosphate loss for linalyl diphosphate (alternative)</option>
-								<option value="r09 = ruleGML('1-6-closure.gml')">1,6 ring closure</option>
-		                        <option value="r10 = ruleGML('3,7-closure.gml')">3,7 ring closure</option>
-		                        <option value="r11 = ruleGML('2,7-closure.gml')">2,7 ring closure</option>
-		                        <option value="r12 = ruleGML('WMshift.gml')">Wagner-Meerwein rearrangment</option>
-		                        <option value="r13 = ruleGML('1-8-cyc.gml')">1,8 ring closure</option>
-		                        <option value="r14 = ruleGML('2-6-closure.gml')">2,6 ring closure</option>
-		                        <option value="r15 = ruleGML('5-7-closure.gml')">5,7 ring closure</option>
-		                        <option value="r16 = ruleGML ('opp_gain_by_bornyl_cation.gml')">Diphosphate capture by Bornyl CationPython</option>
-		                        <option value="r17 = ruleGML ('allylshift.gml')">Allylic charge shift</option>
+								<option value="r00 = ruleGML('sesqui_deltaCadinene_OxyReduction.gml')">(Sesqui) delta Cadinene Oxy Reduction</option>
+								<option value="r01 = ruleGML('sesqui_Cope01')">(Sesqui) Cope Rearrangement</option>
+								<option value="r02 = ruleGML('sesqui_Cope02')">(Sesqui) Cope Rearrangement 2</option>
+								<option value="r03 = ruleGML('sesqui_C7_protonation.gml')">(Sesqui) C7 Protonation</option>
+								<option value="r04 = ruleGML('sesqui_C2_protonation.gml')">(Sesqui) C2 Protonation</option>
+								<option value="r05 = ruleGML('sesqui_BicycloGermacrenes_C3_Oxidation.gml')">(Sesqui) BicycloGermacrenes C3 Oxidation</option>
+								<option value="r06 = ruleGML('sesqui_7_11_Cyc.gml')">(Sesqui) 7,11 Cyclization</option>
+								<option value="r07 = ruleGML('sesqui_6_2_Cyc_For_Germacrenoids.gml')">(Sesqui) 6,2 Cyclization for Germacrenoids</option>
+								<option value="r08 = ruleGML('sesqui_6_1_Cyc.gml')">(Sesqui) 6,1 Cyclization</option>
+								<option value="r09 = ruleGML('sesqui_2_10_Cyc.gml')">(Sesqui) 2,10 Cyclization</option>
+		                        <option value="r10 = ruleGML('sesqui_2_7_Cyc.gml')">(Sesqui) 2,7 Cyclization</option>
+		                        <option value="r11 = ruleGML('sesqui_2_6_Cyc.gml')">(Sesqui) 2,6 Cyclization</option>
+		                        <option value="r12 = ruleGML('sesqui_1_11_Cyc.gml')">(Sesqui) 1,11 Cyclization</option>
+		                        <option value="r13 = ruleGML('sesqui_1_10_Cyc.gml')">(Sesqui) 1,10 Cyclization</option>
+		                        <option value="r14 = ruleGML('mono_penchyl_cation_fechon.gml')">(Mono) Penchyl cation fechon</option>
+		                        <option value="r15 = ruleGML('mono_opp_loss_for_lpp_c3_alternative.gml')">(Mono) Opp loss for lpp C3 alternativa</option>
+		                        <option value="r16 = ruleGML ('mono_opp_loss_for_lpp_c3.gml')">(Mono) Opp loss for lpp C3</option>
+		                        <option value="r17 = ruleGML ('mono_opp_gain_by_bornyl_cation.gml')">(Mono) Opp gain by bornyl cation</option>
+		                        <option value="r18 = ruleGML ('mono_bornyl_cation_bornyl_diphosphate.gml')">(Mono) Bornyl cation bornyl diphosphate</option>
+		                        <option value="r19 = ruleGML ('common_Wagner_Meervein.gml')">(Common) Wagner Meervein</option>
+		                        <option value="r20 = ruleGML ('mono_3_7_Cyc.gml')">(Mono) 3,7 Cyclization</option>
+		                        <option value="r21 = ruleGML ('mono_2_7_Cyc.gml')">(Mono) 2,7 Cyclization</option>
+		                        <option value="r22 = ruleGML ('mono_2_6_Cyc.gml')">(Mono) 2,6 Cyclization</option>
+		                        <option value="r23 = ruleGML ('mono_1_8_Cyc.gml')">(Mono) 1,8 Cyclization</option>
+		                        <option value="r24 = ruleGML ('common_opp_loss_alternative.gml')">(Common) Opp loss alternative</option>
+		                        <option value="r25 = ruleGML ('common_opp_loss.gml')">(Common) Opp loss</option>
+		                        <option value="r26 = ruleGML ('common_opp_gain_by_cation_alternative.gml')">(Common) Opp gain by cation alternative</option>
+		                        <option value="r27 = ruleGML ('common_opp_gain_by_cation.gml')">(Common) Opp gain by cation</option>
+		                        <option value="r28 = ruleGML ('common_h_loss.gml')">(Common) H loss</option>
+		                        <option value="r29 = ruleGML ('common_h2o_gain.gml')">(Common) H2O gain</option>
+		                        <option value="r30 = ruleGML ('common_allyls_shift.gml')">(Common) Allyls shift</option>
+		                        <option value="r31 = ruleGML ('common_1-3_H_shift.gml')">(Common) 1,3 H Shift</option>
+		                        <option value="r32 = ruleGML ('common_1-2_H_shift.gml')">(Common) 1,2 H Shift</option>
+		                        <option value="r33 = ruleGML ('common_1_6_Cyc.gml')">(Common) 1,6 Cyclization</option>
 							</select>
 							<br />
 						

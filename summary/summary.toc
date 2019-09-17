@@ -1,0 +1,3 @@
+\babel@toc {english}{}
+\contentsline {section}{\numberline {0.1}Plant Monoterpenes Biosynthesis}{2}{section.0.1}
+\contentsline {subsection}{\numberline {0.1.1}DG Hyper, \texttt {dg\_0}}{2}{subsection.0.1.1}
