@@ -1,56 +1,3 @@
-.drag {
-    margin-right: 5%;
-    margin-left: 1%;
-    border: 1px solid;
-}
-
-.drop {
-    display: block;
-    list-style: none;
-    float: left;
-    width: 96%;
-    min-height: 400px;
-    padding: 10px;
-    border: 1px dotted green;
-    border-radius: 10px;
-    margin: .5% ;  
-}
-
-.drop2 {
-    display: block;
-    list-style: none;
-    float: left;
-    width: 96%;
-    min-height: 400px;
-    padding: 10px;
-    border: 1px dotted green;
-    border-radius: 10px;
-    margin: .5% ;  
-}
-
-.drop-active {border: 2px dotted red;}
-.drop-over {border: 2px dotted #bbb;}
-.drop li {
-    width: 90%; 
-    min-height: 120px; 
-    float: left;
-    margin: 2.5%;
-    display: inline !important;
-}
-.drop li img {
-    width: 100%;
-}
-
-.rightblock{
-    float: left;
-    width: 96%;
-    min-height: 400px;
-    padding: 25%;
-    border: 1px dotted green;
-    border-radius: 10px;
-    margin: .5% ; 
-}
-
 [id^="r"] {
 
     margin-bottom: .5em;
@@ -59,19 +6,12 @@
     display: inline-block;
 }
 
-
 h1{
     text-align: center;
 }
 .lead {
     text-align: center;
 }
-.container {
-    margin: 1%;
-    position: relative;
-    left: 10em;     
-}
-
 .container img {
     position: relative;
     left: 10em;     
@@ -126,9 +66,18 @@ h1{
 }
 .logo{
     height: 48px;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+  position: absolute;
+  position: absolute; 
+    left: 40%; /* posiciona a 90px para a esquerda */ 
+    
 }
 .logo img{
-    height: 5em;
+    height: 10em;
+
 }
 
 .language-bash{
@@ -139,3 +88,59 @@ h1{
     color: greenyellow;
     font-family: Consolas,Monaco,Lucida Console,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier New, monospace;
 }
+
+
+[id^="g"] {
+
+   background-color: #4CAF50;
+   line-height: 0;
+   color: #F8F8FF;
+   margin: 0 15px 45px 0;
+   padding: 4px;
+  
+}
+
+
+
+[id^="n"] {
+
+   
+    color:#05140d;
+    width: 10%;
+    height: 10$;
+    
+
+
+
+   
+}
+
+[id^="color"] {
+
+   
+    color:#FF8C00;
+   
+}
+
+[id^="lstview_redo"] {
+
+   
+   background-color: #791994;
+   line-height: 1;
+   color: #F8F8FF;
+   border: none;
+
+   
+}
+
+[id^="lstview_undo"] {
+
+   
+    background-color: #791994;
+   line-height: 1;
+   color: #F8F8FF;
+  border: none;
+   
+}
+
+
